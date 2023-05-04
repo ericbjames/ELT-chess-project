@@ -1,3 +1,8 @@
+{{  config(
+  materialized='table',
+  table_name='fct_game'
+)  }}
+
 {% set date_cols = ['created_at', 'last_move_at'] %}
 
 WITH opening_key AS (

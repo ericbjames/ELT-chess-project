@@ -1,9 +1,7 @@
--- model: my_games_staging
--- description: This model filters out duplicate rows from MY_GAMES table and cleans up the data
--- tags: [chess_data]
--- materialized: table
--- table: LEADERBOARD_SCHEMA_STAGING.MY_GAMES_STAGING
--- schema: LEADERBOARD_SCHEMA
+{{ config(
+  materialized='table',
+  table_name='my_games_staging'
+) }}
 
 with record_hashing as (
   select 

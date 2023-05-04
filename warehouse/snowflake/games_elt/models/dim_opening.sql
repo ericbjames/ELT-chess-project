@@ -1,3 +1,7 @@
+{{  config(
+  materialized='table',
+  unique_key='dim_opening'
+)  }}
 WITH opening_cte AS (
   SELECT DISTINCT
     opening_name,

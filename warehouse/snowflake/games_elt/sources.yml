@@ -6,11 +6,20 @@ sources:
     schema: RAW_DATA_SCHEMA
     tables:
       - name: CUSTOM_TOPIC
-sources:
+  - name: CHESS_SCHEMA_MODELED_DATA
+    database: CHESS_DATA_DB
+    schema: CHESS_SCHEMA_MODELED_DATA
+    tables:
+      - name: fct_game 
+      - name: dim_date
+      - name: dim_result
+      - name: one_big_table
+      - name: dim_opening
+
+    
   - name: MY_GAMES_STAGING
     database: CHESS_DATA_DB
     schema: leaderboard_schema_staging
     tables:
       - name: my_games_staging
     
-  

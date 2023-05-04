@@ -1,7 +1,5 @@
--- models/dim_date.sql
-
 {{  config(
-  materialized='incremental',
+  materialized='table',
   unique_key='date_key',
   sort='created_at, last_move_at'
 )  }}

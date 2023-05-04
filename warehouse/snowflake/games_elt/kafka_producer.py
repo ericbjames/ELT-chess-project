@@ -35,44 +35,28 @@ ENTITY_NAMES = [
 {'name': 'SVODMEVKO', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'aaryan_varshney', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'OhanyanEminChess', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'tamojerry', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Zhigalko_Sergei', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'CaliforniaBeaST', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Think_Fast_Move_Fast', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Watneg', 'params': {'rated': 'true', 'perfType': 'bullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
+
     # Names of top 10 users in the blitz category
 {'name': 'athena-pallada', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'FairChess_on_YouTube', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'aspiringstar', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'may6enexttime', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'SaySomething12', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'ILiterallyDontCare97', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'A-Liang', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'ominous_octopus', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'muisback', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Herushkanamura', 'params': {'rated': 'true', 'perfType': 'blitz', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
+
     # Names of top 10 users in the ultrabullet category
 {'name': 'penguingim1', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'OhanyanEminChess', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'aaryan_varshney', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'RoadToFM-L', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'ShadowKing78', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'greennight', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Think_Fast_Move_Fast', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'LiamPutnam2008', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Paranoyak', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Volleybot', 'params': {'rated': 'true', 'perfType': 'ultrabullet', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
+
     # Names of top 10 users in the rapid category
 {'name': 'Drvitman', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'Durarbayli', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'Ragadingdong', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'PeshkaCh', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
 {'name': 'DrawDenied_Twitch', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}}
-# {'name': 'Rakhmanov_Aleksandr', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Chewbacca18', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Aborigen100500', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'lion2006-45', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}},
-# {'name': 'Lance5500', 'params': {'rated': 'true', 'perfType': 'rapid', 'opening': 'true', 'max': NUMBER_OF_GAMES, 'pgnInJson': 'true'}}
+
 ]
 REQUEST_INTERVAL_SECONDS = 15
 fetched_game_ids = {entity['name']: set() for entity in ENTITY_NAMES}

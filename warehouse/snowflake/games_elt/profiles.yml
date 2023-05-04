@@ -1,0 +1,13 @@
+games_elt:
+  outputs:
+    dev:
+      account: xeb34510.us-east-1
+      database: CHESS_DATA_DB
+      password: xIpvow-kybtu4-ketnuh
+      role: PC_DBT_ROLE
+      schema: CHESS_SCHEMA
+      threads: 1
+      type: snowflake
+      user: ericbradleyj
+      warehouse: CHESS_WH
+  target: dev

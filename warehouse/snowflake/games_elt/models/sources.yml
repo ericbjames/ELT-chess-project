@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: RAW_DATA
+    database: CHESS_DATA_DB
+    schema: RAW_DATA_SCHEMA
+    tables:
+      - name: CUSTOM_TOPIC
+sources:
+  - name: MY_GAMES_STAGING
+    database: CHESS_DATA_DB
+    schema: leaderboard_schema_staging
+    tables:
+      - name: my_games_staging
+    
+  

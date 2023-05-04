@@ -5,3 +5,4 @@ warehouse/snowflake/games_elt/logs/
 warehouse/snowflake/games_elt/profiles.yml
 warehouse/snowflake/games_elt/dbt_project.yml
 warehouse/snowflake/games_elt/.env
+warehouse/snowflake/games_elt/env

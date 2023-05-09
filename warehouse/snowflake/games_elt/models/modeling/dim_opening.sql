@@ -8,7 +8,7 @@ WITH opening_cte AS (
     opening_eco,
     opening_variation,
     first_opening_variation
-  FROM leaderboard_schema_staging.my_games_staging
+  FROM {{ ref('my_games_staging') }}
 ),
 
 opening_url_cte AS (

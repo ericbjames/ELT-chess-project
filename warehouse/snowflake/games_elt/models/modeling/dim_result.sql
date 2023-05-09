@@ -14,4 +14,4 @@ SELECT
   white_user_id,
   white_user_name,
   winner
-FROM chess_schema_staging.my_games_staging
+FROM {{ref('my_games_staging')}}

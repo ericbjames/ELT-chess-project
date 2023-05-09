@@ -21,7 +21,7 @@ WITH date_cte AS (
     DATE_PART('dow', created_at) AS date_day,
     created_at,
     last_move_at
-  FROM leaderboard_schema_staging.my_games_staging
+  FROM {{ ref('my_games_staging') }}
 )
 
 SELECT *

@@ -1,13 +1,7 @@
-{{ config(
-  materialized='table',
-  unique_key='game_key',
-  table_name='one_big_table'
-) }}
-
 WITH my_games_staging AS (
   SELECT *,
     {{ dbt_utils.generate_surrogate_key(['ID']) }} AS game_key
-  FROM CHESS_SCHEMA_STAGING.my_games_staging
+  FROM {{ ref('my_games_staging') }}
 ),
 
 dim_opening AS (
@@ -50,10 +44,28 @@ merged_data AS (
     dim_date.date_day,
     dim_date.created_at,
     dim_date.last_move_at,
-    ROW_NUMBER() OVER (PARTITION BY my_games_staging.game_key ORDER BY dim_date.created_at DESC) AS row_num
+    ROW_NUMBER() OVER (PARTITION BY my_games_staging.game_key ORDER BY dim_date.created_at DESC) AS row_num,
+    CASE
+      WHEN my_games_staging.black_user_name = 'penguingim1' AND my_games_staging.winner = 'black' THEN 1
+      WHEN my_games_staging.white_user_name = 'penguingim1' AND my_games_staging.winner = 'white' THEN 1
+      ELSE 0
+    END AS user_win,
+    CASE
+      WHEN my_games_staging.status = 'draw' THEN 1
+      ELSE 0
+    END AS user_draw,
+     CASE
+      WHEN my_games_staging.black_user_name = 'penguingim1' THEN black_rating
+      WHEN my_games_staging.white_user_name = 'penguingim1' THEN white_rating
+    END AS user_elo,
+       CASE
+      WHEN my_games_staging.black_user_name = 'penguingim1' THEN black_ratingdiff
+      WHEN my_games_staging.white_user_name = 'penguingim1' THEN white_ratingdiff
+    END AS user_elo_diff
   FROM my_games_staging
   JOIN dim_opening ON my_games_staging.opening_name = dim_opening.opening_name
   JOIN dim_date ON my_games_staging.created_at = dim_date.created_at
+  WHERE my_games_staging.perf IN ('blitz', 'bullet', 'ultrabullet')
 )
 
 SELECT *

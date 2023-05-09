@@ -12,7 +12,7 @@ WITH opening_key AS (
     opening_eco,
     first_opening_variation,
     {{ dbt_utils.generate_surrogate_key(['opening_name', 'opening_eco', 'first_opening_variation']) }} AS opening_key
-  FROM CHESS_SCHEMA_STAGING.my_games_staging
+  FROM {{ ref('my_games_staging') }}
 )
 
 SELECT DISTINCT
@@ -29,7 +29,7 @@ SELECT DISTINCT
   speed,
   status
  
-FROM CHESS_SCHEMA_STAGING.my_games_staging
+FROM {{ ref('my_games_staging') }}
 LEFT JOIN opening_key ON (
   my_games_staging.opening_name = opening_key.opening_name AND
   my_games_staging.opening_eco = opening_key.opening_eco AND

@@ -16,7 +16,9 @@ Lichess, a non-profit and open-source online chess platform, has quickly become 
 In this Data Engineering project, I will use the Lichess API to collect, transform, and visualize data on chess games played on the platform. By analyzing this data, I hope to gain insights into the openings used by top players, as well as identify trends and patterns in the game that could be useful in improving player performance.
 
 ## Project Architecture
-![Screenshot 2023-05-09 at 12 38 27 PM](https://github.com/ericbjames/ELT-chess-project/assets/101911329/2e599eda-919b-4b1c-b3e9-6631906e73c6)
+<p align="center">
+  <img src=![Screenshot 2023-05-09 at 12 38 27 PM](https://github.com/ericbjames/ELT-chess-project/assets/101911329/2e599eda-919b-4b1c-b3e9-6631906e73c6)>
+</p>
 
 
 ## Data Source/Ingestion

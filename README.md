@@ -1,15 +1,14 @@
 # CHESS_ELT_PROJECT
-Welcome to my Chess Data Engineering Project!
 
 ## Table of Contents 
- - [Introduction](https://github.com/ericbjames/ELT-chess-project/edit/main/README.md#Introduction)
- - [Data Source](https://github.com/ericbjames/ELT-chess-project/edit/main/README.md#Data-Source)
- - [Solution Architecture](https://github.com/ericbjames/ELT-chess-project/edit/main/README.md#Solution-Architecture)
- - [Dimensional Model](https://github.com/ericbjames/ELT-chess-project/edit/main/README.md#Dimensional-Model)
- - [Codebase](https://github.com/ericbjames/ELT-chess-project/edit/main/README.md#Solution-Architecture)
- - [DBT Lineage](https://github.com/ericbjames/ELT-chess-project/edit/main/README.md#DBT-Lineage)
+ - [Introduction](https://github.com/ericbjames/ELT-chess-project/tree/main#Introduction)
+ - [Data Source](https://github.com/ericbjames/ELT-chess-project/tree/main#Data-Source)
+ - [Solution Architecture](https://github.com/ericbjames/ELT-chess-project/tree/main#Solution-Architecture)
+ - [Dimensional Model](https://github.com/ericbjames/ELT-chess-project/tree/main#Dimensional-Model)
+ - [Codebase](https://github.com/ericbjames/ELT-chess-project/tree/main#Solution-Architecture)
+ - [DBT Lineage](https://github.com/ericbjames/ELT-chess-project/tree/main#DBT-Lineage)
 
-## [Introduction](https://github.com/ericbjames/ELT-chess-project/edit/main/README.md#Introduction)
+## Introduction
 Welcome to my data engineering project where I use the Lichess API to analyze chess games played on their platform. Chess has seen a historic rise in popularity in recent years due to the ease and accessibility of quick online games that allow players to play with opponents from all around the world. One of the most popular forms of online chess is blitz and bullet chess, where games are played with time limits of 3 minutes or less. 
 
 Lichess, a non-profit and open-source online chess platform, has quickly become a favorite among chess enthusiasts due to its commitment to fairness, openness, and transparency. As an open-source platform, Lichess provides an API that allows developers to access a wealth of data about the games played on their platform. 

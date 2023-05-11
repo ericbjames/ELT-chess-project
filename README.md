@@ -3,9 +3,10 @@
 ## Table of Contents 
  - [Introduction](https://github.com/ericbjames/ELT-chess-project/tree/main#Introduction)
  - [Data Source](https://github.com/ericbjames/ELT-chess-project/tree/main#Data-Source)
+ - [Ingestion](https://github.com/ericbjames/ELT-chess-project/tree/main#Ingestion)
  - [Solution Architecture](https://github.com/ericbjames/ELT-chess-project/tree/main#Solution-Architecture)
  - [Dimensional Model](https://github.com/ericbjames/ELT-chess-project/tree/main#Dimensional-Model)
- - [Codebase](https://github.com/ericbjames/ELT-chess-project/tree/main#Solution-Architecture)
+ - [Codebase](https://github.com/ericbjames/ELT-chess-project/tree/main#Codebase)
  - [DBT Lineage](https://github.com/ericbjames/ELT-chess-project/tree/main#DBT-Lineage)
 
 ## Introduction
@@ -29,6 +30,8 @@ When it comes to getting data from the [Lichess API](https://lichess.org/api), i
 - Computer evaluation data is only accessible if the game has been previously requested to "Run Computer Analysis".
 
 By being aware of these limitations, we can better design our data ingestion process to work within these constraints and avoid running into issues with API usage.
+
+## Ingestion
 
 ## Dimensional Model
 <p align="center">

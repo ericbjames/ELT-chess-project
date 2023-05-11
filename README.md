@@ -17,7 +17,7 @@ In this Data Engineering project, I will use the Lichess API to collect, transfo
 
 ## Project Architecture
 <p align="center">
-  <img src=![Screenshot 2023-05-09 at 12 38 27 PM](https://github.com/ericbjames/ELT-chess-project/assets/101911329/2e599eda-919b-4b1c-b3e9-6631906e73c6)>
+  <img src=!(https://github.com/ericbjames/ELT-chess-project/assets/101911329/2e599eda-919b-4b1c-b3e9-6631906e73c6)>
 </p>
 
 

@@ -31,17 +31,21 @@ When it comes to getting data from the [Lichess API](https://lichess.org/api), i
 By being aware of these limitations, we can better design our data ingestion process to work within these constraints and avoid running into issues with API usage.
 
 ## Dimensional Model
-
-![Screenshot 2023-05-09 at 12 33 14 PM](https://github.com/ericbjames/ELT-chess-project/assets/101911329/653d5bbb-c87f-4022-80dc-81af1e3a2304)
+<p align="center">
+  <img src="https://github.com/ericbjames/ELT-chess-project/assets/101911329/653d5bbb-c87f-4022-80dc-81af1e3a2304">
+</p>
 
 ## Codebase
 
 ## DBT Lineage
-<img width="1297" alt="Screenshot 2023-05-09 at 12 13 52 AM" src="https://github.com/ericbjames/ELT-chess-project/assets/101911329/af6233c0-ca3e-4bb2-91f8-af6e684bbabd">
+<p align="center">
+  <img src="https://github.com/ericbjames/ELT-chess-project/assets/101911329/af6233c0-ca3e-4bb2-91f8-af6e684bbabd">
+</p>
 
 ## Final Dashboard
-
-![Screenshot 2023-05-09 at 12 15 58 AM](https://github.com/ericbjames/ELT-chess-project/assets/101911329/0bb4bfc1-4a63-4f6d-ad45-68ae8d84f19f)
+<p align="center">
+  <img src="https://github.com/ericbjames/ELT-chess-project/assets/101911329/0bb4bfc1-4a63-4f6d-ad45-68ae8d84f19f">
+</p>
 
 
 

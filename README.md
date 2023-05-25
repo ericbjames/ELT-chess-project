@@ -22,7 +22,7 @@ In this Data Engineering project, I will use the Lichess API to collect, transfo
 </p>
 
 
-## Data Source/Ingestion
+## Data Source
 When it comes to getting data from the [Lichess API](https://lichess.org/api), it's crucial to keep in mind the limitations that come with it. These include:
 
 - A throttling limit of only 20 games per second for game data retrieval.
@@ -46,6 +46,18 @@ By being aware of these limitations, we can better design our data ingestion pro
 </p>
 
 ## Final Dashboard
+Before creating a dashboard ask yourself a few questions:
+- What is the primary focus?
+- What type of decisions will be made based on the data?
+- How detailed does your dashboard need to be?
+
+The primary focus of this particular dashboard is to help the viwer choose new Chess Openings to try out based on what the selected talented player uses.
+
+The completed visualization includes a few graphs:
+- Win percentage by chess opening, sorted by play count (Table)
+- Chess rating over time
+- Win Rate by day
+- Top 10 Chess Openings play rate
 <p align="center">
   <img src="https://github.com/ericbjames/ELT-chess-project/assets/101911329/0bb4bfc1-4a63-4f6d-ad45-68ae8d84f19f">
 </p>

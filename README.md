@@ -32,13 +32,23 @@ When it comes to getting data from the [Lichess API](https://lichess.org/api), i
 By being aware of these limitations, we can better design our data ingestion process to work within these constraints and avoid running into issues with API usage.
 
 ## Ingestion
+In the ingestion phase of the project, I've set up a Python script that fetches data from the Lichess API, specifically focusing on bullet, blitz, and ultrabullet games of user 'penguingim1'. The script operates in 21-second intervals (to comply with rate limits) for a duration of 10 minutes. This collected data is loaded into a Kafka topic, which is then transferred into Snowflake via a Confluent connector, setting the stage for dbt modeling and analysis.
 
 ## Dimensional Model
 <p align="center">
   <img src="https://github.com/ericbjames/ELT-chess-project/assets/101911329/653d5bbb-c87f-4022-80dc-81af1e3a2304">
 </p>
 
+
+
 ## Codebase
+
+### infrastructure/producer
+The `infrastructure/producer` folder holds the code for the customer Kafka producer I created for data ingestion. This includes the Dockerfile that I use to host the producer apart from my dbt project on AWS.
+
+### warehouse/snowflake
+The `warehouse/snowflake` folder holds the full dbt project which is also dockerized for AWS.
+
 
 ## DBT Lineage
 <p align="center">
